@@ -37,7 +37,7 @@ export default function Navbar() {
             <span className='navItems navItems:hover'>SHOES</span>
           </div> */}
         <div className='w-30 cursor-pointer'>
-          <LogoImage className={`w-30 h-auto ${visible ? 'text-black' : 'text-white'}`}></LogoImage>
+          <LogoImage className={`transition duration-300 w-30 h-auto ${visible ? 'text-black' : 'text-white'}`}></LogoImage>
         </div>
         <div className='flex gap-5'>
           <span className='cursor-pointer'><Search /></span>
