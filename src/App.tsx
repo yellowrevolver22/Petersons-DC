@@ -1,8 +1,10 @@
 import './App.css'
 import Banner from './components/Banner'
+import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import PageCards from './components/PageCards'
 import PageCardsTwo from './components/PageCardsTwo'
+import Quote from './components/Quote'
 
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
       <Banner></Banner>
       <PageCards></PageCards>
       <PageCardsTwo></PageCardsTwo>
+      <Quote></Quote>
+      <Footer></Footer>
     </>
   )
 }
